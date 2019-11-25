@@ -3,7 +3,7 @@ package com.animal.java;
 public class Animal {
 
     private String name;
-    public void sound(){
+    public void sounds(){
         System.out.println("test sound");
     }
     public void eat(){

@@ -7,6 +7,7 @@ public class main {
         Dog objdog1 = new Dog();
         Cat objcat = new Cat();
 
+
         objhome.adoptPet(objdog);
         objhome.adoptPet(objdog1);
         objhome.adoptPet(objcat);

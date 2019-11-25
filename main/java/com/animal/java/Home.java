@@ -1,5 +1,7 @@
 package com.animal.java;
 import java.util.*;
+
+
 public class Home {
     ArrayList<Animal> pets = new ArrayList<Animal>();
 
@@ -8,7 +10,7 @@ public class Home {
     }
     public void makeAllSounds(){
         for(Animal a: pets){
-            a.sound();
+            a.sounds();
         }
     }
 }
